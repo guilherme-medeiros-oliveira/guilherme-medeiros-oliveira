@@ -1,7 +1,8 @@
 <div align="center">
 
   <img src="guilherme-medeiros.png" width="230" style="border-radius:18px" />
-# 👋 Olá, eu me chamo Guilherme Medeiros
+  
+### 👋 Olá, eu me chamo Guilherme Medeiros
 
 ### 💻 Desenvolvedor | NEXUS HelpDesk - Ponto de Conexão entre o Problema e a Solução
 
