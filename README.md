@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Olá, eu sou o Guilherme Medeiros Oliveira
+# 👋 Olá, eu me chamo Guilherme Medeiros
 
 ### 💻 Desenvolvedor | NEXUS HelpDesk - Ponto de Conexão entre o Problema e a Solução
 
