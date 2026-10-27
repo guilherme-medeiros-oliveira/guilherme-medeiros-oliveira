@@ -26,7 +26,7 @@
 **🌐 Acesse:** `nexus-helpdesk` hospedado na InfinityFree  
 **🛠️ Stack:** PHP 8 | MySQL | HTML5 | CSS3 | JavaScript
 
-[🔗 Ver código do NEXUS](https://github.com/guilherme-medeiros-oliveira/helpdesk-nexus) | [🌐 Ver Demo Online](https://guilhermemedeiros.freedev.app/registrar.php)
+[🔗 Ver código do NEXUS](https://github.com/guilherme-medeiros-oliveira/helpdesk-nexus) | [🌐 Ver Demo Online](https://helpdesk-nexus-lac.vercel.app/dashboard.php)
 
 ---
 
