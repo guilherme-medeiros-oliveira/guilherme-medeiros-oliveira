@@ -22,7 +22,7 @@
 
 ---
 
-## 👋 Olá, eu sou o Guilherme
+## 👋 Olá, meu nome é Guilherme
 
 <img align="right" width="150" src="guilherme-medeiros.png" alt="Foto de Guilherme Medeiros Oliveira">
 
