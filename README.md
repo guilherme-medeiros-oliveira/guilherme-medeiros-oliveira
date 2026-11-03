@@ -80,7 +80,7 @@ sequenceDiagram
 <table>
 <tr>
 <td align="center" width="50%">
-<a href="https://helpdesk-nexus-lac.vercel.app"><img src="https://github.com/guilherme-medeiros-oliveira/helpdesk-nexus/raw/main/dashboard_cliente.png" alt="Painel do cliente no NEXUS, com conversa estilo WhatsApp"></a>
+<a href="https://helpdesk-nexus-lac.vercel.app"><img src="https://github.com/guilherme-medeiros-oliveira/helpdesk-nexus/raw/main/abrir_chamado.png" alt="Painel do cliente no NEXUS, com conversa estilo WhatsApp"></a>
 <br><sub><b>Painel do cliente</b> · conversa estilo WhatsApp</sub>
 </td>
 <td align="center" width="50%">
