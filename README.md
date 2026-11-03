@@ -81,7 +81,7 @@ sequenceDiagram
 <tr>
 <td align="center" width="50%">
 <a href="https://helpdesk-nexus-lac.vercel.app"><img src="https://github.com/guilherme-medeiros-oliveira/helpdesk-nexus/raw/main/abrir_chamado.png" alt="Painel do cliente no NEXUS, com conversa estilo WhatsApp"></a>
-<br><sub><b>Painel do cliente</b> · conversa estilo WhatsApp</sub>
+<br><sub><b>Painel do cliente</b> · Abertura de Chamados</sub>
 </td>
 <td align="center" width="50%">
 <a href="https://helpdesk-nexus-lac.vercel.app"><img src="https://github.com/guilherme-medeiros-oliveira/helpdesk-nexus/raw/main/dashboard_admin.png" alt="Painel do admin no NEXUS, com edição e exclusão de chamados"></a>
