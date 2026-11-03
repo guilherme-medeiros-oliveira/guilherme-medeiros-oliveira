@@ -1,10 +1,10 @@
-👋 Olá, meu nome é Guilherme
+## 👋 Olá, meu nome é Guilherme
 
 <img align="right" width="150" src="guilherme-medeiros.png" alt="Foto de Guilherme Medeiros Oliveira">
 
 Sou **estudante de Análise e Desenvolvimento de Sistemas** e estou em busca da minha **primeira oportunidade em Help Desk / Suporte N1**, com muita vontade de crescer até o N2.
 
-Gosto de entender o problema de verdade, explicar a solução sem jargão e aprender com cada chamado. Para não esperar a oportunidade chegar, **construí do zero o meu próprio sistema de chamados, o NEXUS**: foi a forma que encontrei de aprender o atendimento por dentro, do protocolo ao chat, do cliente ao técnico.
+Gosto de entender o problema de verdade, explicar a solução sem jargão e aprender com cada chamado. Para não esperar a oportunidade chegar, **construí do zero o meu próprio sistema de chamados, o NEXUS**.
 
 - 🎯 **Objetivo:** vaga de Help Desk / Suporte N1 (e evoluir para N2)
 - 🛠️ **Projeto principal:** NEXUS HelpDesk, no ar e com código aberto
@@ -12,7 +12,7 @@ Gosto de entender o problema de verdade, explicar a solução sem jargão e apre
 
 <div align="center">
 
-<img src="banner.svg" alt="Guilherme Medeiros Oliveira: estudante de Análise e Desenvolvimento de Sistemas, em busca da primeira vaga de Help Desk N1 e criador do NEXUS HelpDesk" width="100%">
+<img src="banner.svg" alt="Guilherme Medeiros Oliveira: estudante de ADS em busca da primeira vaga de Help Desk N1 e criador do NEXUS HelpDesk" width="100%">
 
 <br>
 
@@ -24,7 +24,7 @@ Gosto de entender o problema de verdade, explicar a solução sem jargão e apre
 
 ---
 
-🚀 Projeto em destaque: NEXUS HelpDesk System
+## 🚀 Projeto em destaque: NEXUS HelpDesk System
 
 <div align="center">
 
@@ -39,75 +39,68 @@ Gosto de entender o problema de verdade, explicar a solução sem jargão e apre
 </div>
 
 > O NEXUS **substitui planilha e WhatsApp**: o cliente abre o chamado, o técnico responde e atualiza o status, e tudo fica registrado com protocolo e histórico.
->
-> 💡 *NEXUS vem do latim: o ponto central onde tudo se conecta. Aqui, é o elo entre o problema do usuário e a solução técnica.*
 
-🔄 O caminho de um chamado
+### 🔄 O caminho de um chamado
 
 ```mermaid
 sequenceDiagram
     autonumber
-    actor Cliente as 👤 Cliente
-    participant NEXUS as 🎫 NEXUS
-    actor Tecnico as 🛠️ Técnico (Admin)
-    Cliente->>NEXUS: Abre o chamado (categoria e prioridade)
-    NEXUS-->>Cliente: Protocolo NX-000001 · status Aberto
-    Tecnico->>NEXUS: Vê todos os chamados no painel
-    Tecnico->>NEXUS: Muda o status para Em Andamento
-    Cliente->>NEXUS: Mensagem no chat do chamado
-    NEXUS-->>Tecnico: Mensagem aparece em até 2 segundos
-    Tecnico->>NEXUS: Responde com a solução
-    Tecnico->>NEXUS: Fecha o chamado (Fechado)
-✨ O que o sistema faz
-	Recurso	Como funciona
-🎫	**Protocolo automático**	Cada chamado ganha um número único: `NX-000001`, `NX-000002`…
-🗂️	**Categorias e prioridade**	Suporte Técnico, Rede, Software, Hardware, E-mail e Impressora · 🟢 Baixa 🟡 Média 🔴 Alta
-🔄	**Status do chamado**	Aberto → Em Andamento → Fechado, atualizado pelo técnico
-💬	**Chat dentro do chamado**	Conversa estilo WhatsApp, com histórico salvo e atualização a cada 2 segundos
-👥	**Painéis por perfil**	O cliente vê só os próprios chamados; o admin vê tudo, responde, muda o status e exclui
-⏱️	**SLA de 4h úteis**	Prazo de atendimento informado ao cliente no sistema
-🔐	**Segurança**	Senhas com `password_hash`, *prepared statements*, saída escapada contra XSS e cookies de sessão `httponly` e `secure`
-⚖️	**LGPD**	Termos de Uso e Política de Privacidade, com aceite antes do login
-🕐	**Horário de Brasília**	Fuso `America/Sao_Paulo` em todo o sistema
-📱	**Responsivo**	Layout adaptável para celular e desktop
-📸 Telas
+    actor Cliente as Cliente
+    participant NEXUS as NEXUS
+    actor Tecnico as Tecnico
+    Cliente->>NEXUS: Abre o chamado
+    NEXUS-->>Cliente: Protocolo NX-000001
+    Tecnico->>NEXUS: Muda status para Em Andamento
+    Cliente->>NEXUS: Mensagem no chat
+    Tecnico->>NEXUS: Responde e fecha
+### ✨ O que o sistema faz
+Recurso	Como funciona
+**Protocolo automático**	`NX-000001`, `NX-000002`…
+**Categorias e prioridade**	Suporte Técnico, Rede, Software, Hardware, E-mail e Impressora
+**Status**	Aberto → Em Andamento → Fechado
+**Chat**	Conversa estilo WhatsApp com histórico
+**Painéis**	Cliente vê só os dele, admin vê tudo
+**SLA**	4h úteis
+**Segurança**	password_hash, prepared statements, XSS, httponly
+**LGPD**	Termos e Política com aceite
+**Fuso**	America/Sao_Paulo
+### 📸 Telas
 
 <table>
 <tr>
 <td align="center" width="50%">
-<a href="https://helpdesk-nexus-lac.vercel.app"><img src="https://github.com/guilherme-medeiros-oliveira/helpdesk-nexus/raw/main/dashboard_cliente.png" alt="Painel do cliente no NEXUS, com conversa estilo WhatsApp"></a>
-<br><sub><b>Painel do cliente</b> · conversa estilo WhatsApp</sub>
+<a href="https://helpdesk-nexus-lac.vercel.app"><img src="https://github.com/guilherme-medeiros-oliveira/helpdesk-nexus/raw/main/dashboard_cliente.png" alt="Painel do cliente"></a>
+<br><sub><b>Painel do cliente</b></sub>
 </td>
 <td align="center" width="50%">
-<a href="https://helpdesk-nexus-lac.vercel.app"><img src="https://github.com/guilherme-medeiros-oliveira/helpdesk-nexus/raw/main/dashboard_admin.png" alt="Painel do admin no NEXUS, com edição e exclusão de chamados"></a>
-<br><sub><b>Painel admin</b> · edição e exclusão do chamado</sub>
+<a href="https://helpdesk-nexus-lac.vercel.app"><img src="https://github.com/guilherme-medeiros-oliveira/helpdesk-nexus/raw/main/dashboard_admin.png" alt="Painel do admin"></a>
+<br><sub><b>Painel admin</b></sub>
 </td>
 </tr>
 </table>
 
-🧪 Teste em 1 minuto
+### 🧪 Teste em 1 minuto
 
-1. Abra o https://helpdesk-nexus-lac.vercel.app e crie uma conta
-2. Abra um chamado escolhendo categoria e prioridade
-3. Entre como admin, responda no chat e mude o status
-4. Volte como cliente e veja a resposta chegar
+1. Abra o https://helpdesk-nexus-lac.vercel.app
+2. Crie uma conta e abra um chamado
+3. Entre como admin e responda
 
-🗺️ Próximos passos: o ecossistema NEXUS
-Módulo	Código	O que vai fazer	Situação
-**NEXUS HelpDesk**	`NX-000001`	Gestão de chamados com chat, status e SLA	✅ No ar
-**NEXUS Inventory**	`AST-0001`	Controle de ativos com QR Code e alerta de licença	🗓️ Planejado
-**NEXUS KB**	`KB-0001`	Base de conhecimento com busca e avaliação	🗓️ Planejado
-**NEXUS Check**	—	Monitor de uptime a cada 5 minutos	🗓️ Planejado
+### 🗺️ Próximos passos
+Módulo	Situação
+**NEXUS HelpDesk**	✅ No ar
+**NEXUS Inventory**	🗓️ Planejado
+**NEXUS KB**	🗓️ Planejado
+**NEXUS Check**	🗓️ Planejado
 ---
 
-🎧 Como eu atendo um chamado
+## 🎧 Como eu atendo
 1️⃣ Escutar	2️⃣ Diagnosticar	3️⃣ Resolver	4️⃣ Documentar
-Entendo o problema com calma e empatia	Faço as perguntas certas e isolo a causa	Aplico a solução e confirmo com o usuário	Registro tudo para o próximo chamado ser mais rápido
-🌱 Em estudo e prática
+Entendo com calma	Isolo a causa	Aplico a solução	Registro tudo
+## 🌱 Em estudo
 
-`Windows 10/11` · `Active Directory` · `Redes (TCP/IP, DNS, DHCP)` · `Linux básico` · `Hardware` · `Microsoft 365` · `Acesso remoto` · `Fundamentos de ITIL`
+`Windows 10/11` · `Active Directory` · `Redes` · `Linux` · `Hardware` · `Microsoft 365` · `ITIL`
 
-💻 Tecnologias
+## 💻 Tecnologias
 
 !https://img.shields.io/badge/PHP-8.2-777BB4?style=flat-square&logo=php&logoColor=white
 !https://img.shields.io/badge/MySQL-8-4479A1?style=flat-square&logo=mysql&logoColor=white
@@ -115,38 +108,14 @@ Entendo o problema com calma e empatia	Faço as perguntas certas e isolo a causa
 !https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white
 !https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black
 !https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white
-!https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white
-!https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white
 
-<details>
-<summary><b>📈 Estatísticas do GitHub</b></summary>
-
-<br>
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=guilherme-medeiros-oliveira&show_icons=true&theme=tokyonight&hide_border=true" alt="Estatísticas do GitHub de Guilherme Medeiros Oliveira">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guilherme-medeiros-oliveira&layout=compact&theme=tokyonight&hide_border=true" alt="Linguagens mais usadas por Guilherme Medeiros Oliveira">
-
-</div>
-
-</details>
-
----
-
-📫 Vamos conversar?
-
-Estou pronto para começar e aprender rápido. Se você tem uma vaga de *Help Desk / Suporte N1*, me chame:
+## 📫 Vamos conversar?
 
 <div align="center">
 
 https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white](https://www.linkedin.com/in/guilherme-medeiros-oliveira-478b45291)
 https://img.shields.io/badge/E--mail-Falar_comigo-EA4335?style=for-the-badge&logo=gmail&logoColor=white](mailto:medeiros.oliveira.guilherme@gmail.com)
 
-<br>
-
-*NEXUS HelpDesk* · _Ponto de conexão entre o problema e a solução_ 🎧
-
-Gostou do projeto? Deixe uma ⭐ no https://github.com/guilherme-medeiros-oliveira/helpdesk-nexus!
+*NEXUS HelpDesk* · _Ponto de conexão entre o problema e a solução_
 
 </div>
