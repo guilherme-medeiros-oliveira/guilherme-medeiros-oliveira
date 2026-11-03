@@ -129,20 +129,6 @@ sequenceDiagram
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-<details>
-<summary><b>📈 Estatísticas do GitHub</b></summary>
-
-<br>
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=guilherme-medeiros-oliveira&show_icons=true&theme=tokyonight&hide_border=true" alt="Estatísticas do GitHub de Guilherme Medeiros Oliveira">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guilherme-medeiros-oliveira&layout=compact&theme=tokyonight&hide_border=true" alt="Linguagens mais usadas por Guilherme Medeiros Oliveira">
-
-</div>
-
-</details>
-
 ---
 
 ## 📫 Vamos conversar?
